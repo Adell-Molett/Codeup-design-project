@@ -37,11 +37,6 @@ h5 {
     margin: 0;
 }
 /*header*/
-header nav .logo {
-    background-color: #f0f0f0;
-    height: auto;
-    margin: auto;
-}
 header nav image{
     width: auto;
     margin: auto;
@@ -50,6 +45,7 @@ header nav image{
 a {
     color: #008080;
 }
+
 /*section*/
 .container .circle {
     width: 105px;
@@ -124,7 +120,7 @@ aside > p:nth-child(4) {
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .text-center {
+    h1, h2 {
         display: none;
     }
 }
