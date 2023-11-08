@@ -118,12 +118,15 @@ aside > p:nth-child(4) {
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .extra-small-logo-only {
+    .text-center {
         display: none;
     }
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .text-center {
+        display: none;
+    }
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
