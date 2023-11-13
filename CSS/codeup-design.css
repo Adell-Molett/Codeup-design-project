@@ -1,8 +1,10 @@
+/*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
 * {
     box-sizing: border-box;
 }
-/*color*/
+/*Colors for the circles*/
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -13,13 +15,13 @@
     --off-white: #f0f0f0;
     --gray: #e6e6e6;
 }
+/*body*/
 body {
     font-family: 'Abel', sans-serif;
     font-size: 0.75rem;
     background-color: #f0f0f0;
 }
-/*header font and sizes
- */
+/*header font and sizes*/
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
@@ -45,9 +47,8 @@ a {
     color: #008080;
 }
 
-/*section*/
+/*middle section and circles*/
 .container .text-center{
-
 }
 .container .circle {
     width: 105px;
@@ -55,8 +56,6 @@ a {
     color: white;
     border: 4px solid white;
 }
-
-/* circles*/
 .design {
     background-color: #e6563b;
 }
@@ -69,7 +68,7 @@ a {
 .host {
     background-color: #00aba9;
 }
-/*main*/
+/*main and badges*/
 .title {
     margin: 5rem 0 2rem 0;
     font-size: 1.1rem;
